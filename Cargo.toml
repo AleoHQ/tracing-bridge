@@ -1,0 +1,10 @@
+[package]
+name = "tracing-bridge"
+version = "0.1.0"
+authors = ["Luke Frisken <l.frisken@gmail.com>"]
+edition = "2018"
+description = "Types that implement serde Serialize/Deserialize, and From/Into for their equivalent tracing types."
+
+[dependencies]
+serde = { version = "1.0", features = ["derive"] }
+tracing-core = "0.1"
